@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 /* Hero Section Styles */
 .hero {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('images/herooooo.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -73,7 +73,6 @@ nav ul li a:hover {
 .hero h2 {
     font-size: 48px;
     margin-bottom: 20px;
-
 }
 
 .hero p {
@@ -81,33 +80,14 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* About Section Styles */
-.about {
-    background: url('images/herooo.jpg') no-repeat center center;
-    background-size: cover;
-    background-color: #fff;
-    padding: 80px 0;
-    color: white;
-    text-align: center;
-}
-
-.about h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.about p {
-    font-size: 18px;
-}
-
 /* Products Section Styles */
 .products {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('images/herooooo.jpg') no-repeat center center;
     background-size: cover;
     padding: 80px 0;
     color: white;
     text-align: center;
-    background-color: #f9f9f2; /* Updated background color */
+    background-color: #f9f9f2;
 }
 
 .products h2 {
@@ -127,9 +107,9 @@ nav ul li a:hover {
     padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    flex: 1 1 calc(25% - 40px); /* Adjusted width for better fit */
-    max-width: 250px; /* Limit maximum width */
-    margin-bottom: 40px; /* Add space between product items */
+    flex: 1 1 calc(25% - 40px);
+    max-width: 250px;
+    margin-bottom: 40px;
 }
 
 .product-item img {
@@ -167,59 +147,9 @@ nav ul li a:hover {
     background-color: #d81b5b;
 }
 
-/* Contact Section Styles */
-.contact {
-    background-color: #f9f9f9;
-    padding: 80px 0;
-    text-align: center;
-}
-
-.contact h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.contact form {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact form input,
-.contact form textarea {
-    display: block;
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    transition: border-color 0.3s ease;
-}
-
-.contact form input:focus,
-.contact form textarea:focus {
-    outline: none;
-    border-color: #e91e63;
-}
-
-.contact form .btn {
-    background-color: #e91e63;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.contact form .btn:hover {
-    background-color: #d81b5b;
-}
-
 /* Footer Styles */
 footer {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('images/herooooo.jpg') no-repeat center center;
     background-size: cover;
     background-color: #333;
     color: white;
@@ -227,8 +157,7 @@ footer {
     padding: 20px 0;
 }
 
-
-/* Add this style for the social links and adjust the order button */
+/* Social Links and Order Button */
 .social-links {
     display: flex;
     align-items: center;
@@ -236,22 +165,19 @@ footer {
 }
 
 .social-link img {
-    width: 45px; /* Adjust size as needed */
+    width: 45px;
     height: auto;
 }
 
-/* Add this style for the order button */
 .order-button {
     background-color: red;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 30px;
-    margin-left: auto; /* Push to the right */
+    margin-left: auto;
 }
 
 .order-button:hover {
     background-color: orangered;
 }
-
-
