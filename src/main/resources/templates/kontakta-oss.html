@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TheBoil</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Kontakta Oss - TheBoil</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
 <body>
 <header>
@@ -26,11 +26,14 @@
 </header>
 
 <main>
-    <section class="hero">
-        <h2 th:text="${welcomeMessage}"></h2>
-        <p th:text="${discoverMessage}"></p>
-        <p th:text="${findUsMessage}"></p>
-        <p th:text="${newsmessage}"></p>
+    <section class="contact">
+        <h2>Kontakta Oss</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Ditt namn" required>
+            <input type="email" name="email" placeholder="Din e-post" required>
+            <textarea name="message" rows="5" placeholder="Ditt meddelande" required></textarea>
+            <button type="submit" class="btn">Skicka</button>
+        </form>
     </section>
 </main>
 
