@@ -18,7 +18,6 @@ public class ProductController {
     public String index(Model model) {
         model.addAttribute("welcomeMessage", "Välkommen till TheBoil");
         model.addAttribute("discoverMessage", "Upptäck våra fantastiska menyer");
-        model.addAttribute("findUsMessage", "HITTA OSS NÄRA DIG");
         return "index";
     }
 

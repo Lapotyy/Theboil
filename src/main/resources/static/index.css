@@ -80,6 +80,26 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+
+/* About Section Styles */
+.about {
+    background-size: cover;
+    background-color: black;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+
 /* Footer Styles */
 footer {
     background: url('images/herooo.jpg') no-repeat center center;
@@ -114,3 +134,5 @@ footer {
 .order-button:hover {
     background-color: orangered;
 }
+
+
