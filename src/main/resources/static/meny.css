@@ -149,9 +149,8 @@ nav ul li a:hover {
 
 /* Footer Styles */
 footer {
-    background: url('images/herooooo.jpg') no-repeat center center;
     background-size: cover;
-    background-color: #333;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 20px 0;

@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e91e63;
+    color: orangered;
 }
 
 /* Hero Section Styles */
@@ -101,14 +101,12 @@ nav ul li a:hover {
 
 /* Footer Styles */
 footer {
-    background: url('images/herooo.jpg') no-repeat center center;
-    background-size: cover;
-    background-color: #333;
+    background-color: black;
     color: white;
     text-align: center;
-    padding: 20px 0;
-}
+    padding: 70px 0;
 
+}
 
 /* Social Links and Order Button */
 .social-links {
@@ -134,4 +132,5 @@ footer {
 .order-button:hover {
     background-color: orangered;
 }
+
 
