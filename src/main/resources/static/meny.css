@@ -1,11 +1,18 @@
+/* meny.css */
 /* Reset and General Styles */
-body {
-    font-family: 'Arial', sans-serif;
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     line-height: 1.6;
+    margin: 0;
 }
 
 .container {
@@ -38,9 +45,29 @@ header .container {
     align-items: center;
 }
 
-header h1 {
-    font-size: 24px;
-    margin: 0;
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    gap: 10px;
+}
+
+.social-link img {
+    width: 45px;
+    height: auto;
+}
+
+.header-button {
+    background-color: #e91e63;
+    padding: 12px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+    background-color: #c2185b;
 }
 
 nav ul {
@@ -58,8 +85,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e91e63;
+    color: orangered;
 }
+
 
 /* Hero Section Styles */
 .hero {
@@ -110,6 +138,7 @@ nav ul li a:hover {
     flex: 1 1 calc(25% - 40px);
     max-width: 250px;
     margin-bottom: 40px;
+    transition: transform 0.3s ease;
 }
 
 .product-item img {
@@ -134,32 +163,32 @@ nav ul li a:hover {
     color: #e91e63;
 }
 
-.product-item .btn {
-    background-color: #e91e63;
+.product-item .product-button {
+    background-color: red;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 6px 12px;
+    border-radius: 60px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.product-item .btn:hover {
-    background-color: #d81b5b;
+.product-item .product-button:hover {
+    background-color: orangered;
 }
 
 /* Footer Styles */
 footer {
-    background-size: cover;
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
-/* Social Links and Order Button */
 .social-links {
     display: flex;
     align-items: center;
+    justify-content: center; /* Center horizontally */
     gap: 10px;
 }
 
@@ -175,8 +204,80 @@ footer {
     text-decoration: none;
     border-radius: 30px;
     margin-left: auto;
+    transition: background-color 0.3s ease;
 }
 
 .order-button:hover {
     background-color: orangered;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    margin-left: auto; /* Push to the right */
+    padding: 0 15px; /* Adjust padding as needed */
+    display: none; /* Hide by default on larger screens */
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 100%; /* Position dropdown content below the button */
+    right: 15px; /* Adjust the right position */
+}
+
+/* Links inside the Dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Show the Dropdown Menu on Hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Media Query for Mobile */
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide original navigation links */
+    }
+
+    .dropbtn {
+        display: inline-block; /* Show dropdown button on mobile */
+    }
+
+    .dropdown {
+        display: inline-block; /* Ensure dropdown is displayed */
+        position: relative; /* Ensure dropdown content is positioned relative to this */
+    }
+
+    .dropdown-content {
+        top: 60px; /* Position dropdown content below header */
+        left: auto;
+        right: 0; /* Align dropdown content to the right */
+        width: 100%; /* Full width of dropdown on mobile */
+        border-radius: 0; /* Optional: Adjust dropdown styling */
+        box-shadow: none; /* Optional: Remove shadow */
+    }
+
+    .dropdown-content a {
+        color: black;
+    }
+
+    .dropdown.show .dropdown-content {
+        display: block; /* Keep dropdown content visible when .show is applied */
+    }
 }

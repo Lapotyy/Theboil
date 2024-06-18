@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meny - TheBoil</title>
-    <link rel="stylesheet" type="text/css" href="/meny.css">
+    <link rel="stylesheet" type="text/css" href="meny.css">
+    <style>
+        /* Additional styles can be added here for inline customization */
+    </style>
 </head>
 <body>
 <header>
@@ -12,16 +15,24 @@
         <div class="social-links">
             <a href="https://www.tiktok.com/@theboilsthlm" class="social-link"><img src="/tiktok_logo.png" alt="TikTok"></a>
             <a href="https://www.instagram.com/theboilsthlm/" class="social-link"><img src="instagram_logo.png" alt="Instagram"></a>
-
         </div>
-        <a href="https://qopla.se/" class="order-button">BESTÄLL HÄR</a>
+        <a href="https://qopla.se/" class="order-button header-button">BESTÄLL HÄR</a>
         <nav>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="/hem">Hem</a></li>
                 <li><a href="/meny">Meny</a></li>
                 <li><a href="/om-oss">Om Oss</a></li>
                 <li><a href="/kontakta-oss">Kontakta Oss</a></li>
             </ul>
+            <div class="dropdown">
+                <button class="dropbtn">☰</button>
+                <div class="dropdown-content">
+                    <a href="/hem">Hem</a>
+                    <a href="/meny">Meny</a>
+                    <a href="/om-oss">Om Oss</a>
+                    <a href="/kontakta-oss">Kontakta Oss</a>
+                </div>
+            </div>
         </nav>
     </div>
 </header>
@@ -29,54 +40,71 @@
 <main>
     <section id="menu" class="products">
         <div class="container">
-            <h2>Vår Meny</h2>
+            <h2>Våra Menyer</h2>
             <div class="product-list">
                 <div class="product-item">
                     <img src="product1.jpg" alt="Produkt 1">
                     <h3>Produkt 1 Namn</h3>
                     <p>Beskrivning av Produkt 1.</p>
                     <p class="price">$19.99</p>
-                    <button class="btn">Lägg i Kundvagn</button>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
                 </div>
-
                 <div class="product-item">
                     <img src="product2.jpg" alt="Produkt 2">
                     <h3>Produkt 2 Namn</h3>
                     <p>Beskrivning av Produkt 2.</p>
                     <p class="price">$24.99</p>
-                    <button class="btn">Lägg i Kundvagn</button>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
                 </div>
-
                 <div class="product-item">
                     <img src="product3.jpg" alt="Produkt 3">
                     <h3>Produkt 3 Namn</h3>
                     <p>Beskrivning av Produkt 3.</p>
                     <p class="price">$29.99</p>
-                    <button class="btn">Lägg i Kundvagn</button>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
                 </div>
-
                 <div class="product-item">
                     <img src="product4.jpg" alt="Produkt 4">
                     <h3>Mac & Cheese</h3>
                     <p>Mac & Cheese.</p>
                     <p class="price">$39.99</p>
-                    <button class="btn">Lägg i Kundvagn</button>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <section id="snacks" class="products">
+        <div class="container">
+            <h2>Sides & Snacks</h2>
+            <div class="product-list">
                 <div class="product-item">
-                    <img src="product5.jpg" alt="Produkt 5">
-                    <h3>Produkt 5 Namn</h3>
-                    <p>Beskrivning av Produkt 5.</p>
+                    <img src="product1.jpg" alt="Produkt 1">
+                    <h3>Produkt 1 Namn</h3>
+                    <p>Beskrivning av Produkt 1.</p>
                     <p class="price">$19.99</p>
-                    <button class="btn">Lägg i Kundvagn</button>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
                 </div>
-
                 <div class="product-item">
-                    <img src="product6.jpg" alt="Produkt 6">
-                    <h3>Produkt 6 Namn</h3>
-                    <p>Beskrivning av Produkt 6.</p>
+                    <img src="product2.jpg" alt="Produkt 2">
+                    <h3>Produkt 2 Namn</h3>
+                    <p>Beskrivning av Produkt 2.</p>
                     <p class="price">$24.99</p>
-                    <button class="btn">Lägg i Kundvagn</button>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
+                </div>
+                <div class="product-item">
+                    <img src="product3.jpg" alt="Produkt 3">
+                    <h3>Produkt 3 Namn</h3>
+                    <p>Beskrivning av Produkt 3.</p>
+                    <p class="price">$29.99</p>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
+                </div>
+                <div class="product-item">
+                    <img src="product4.jpg" alt="Produkt 4">
+                    <h3>Mac & Cheese</h3>
+                    <p>Mac & Cheese.</p>
+                    <p class="price">$39.99</p>
+                    <a href="https://qopla.se/" class="order-button product-button">BESTÄLL HÄR</a>
                 </div>
             </div>
         </div>
@@ -86,14 +114,13 @@
 <footer>
     <div class="container">
         <p>&copy; 2024 TheBoil. Alla rättigheter förbehållna.</p>
-        <a href="https://www.tiktok.com/@theboilsthlm" class="social-link"><img src="/tiktok_logo.png" alt="TikTok"></a>
-        <a href="https://www.instagram.com/theboilsthlm/" class="social-link"><img src="instagram_logo.png" alt="Instagram"></a>
-
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@theboilsthlm" class="social-link"><img src="/tiktok_logo.png" alt="TikTok"></a>
+            <a href="https://www.instagram.com/theboilsthlm/" class="social-link"><img src="instagram_logo.png" alt="Instagram"></a>
+        </div>
     </div>
 </footer>
 
 <script src="/js/scripts.js"></script>
-<link rel="stylesheet" type="text/css" href="meny.css">
-
 </body>
 </html>
