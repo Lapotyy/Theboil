@@ -68,24 +68,6 @@ nav ul li a:hover {
     color: orangered;
 }
 
-/* Hero Section Styles */
-.hero {
-    background: url('images/herooo.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 200px 0;
-}
-
-.hero h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
 
 /* About Section Styles */
 .about {

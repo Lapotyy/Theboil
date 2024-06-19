@@ -73,7 +73,7 @@ nav ul li a:hover {
     background-size: cover;
     color: white;
     text-align: center;
-    padding: 200px 0;
+    padding: 220px 0;
 }
 
 .hero h2 {
@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 
-/* About Section Styles */
+/* Findu us near you / About Section Styles */
 .about {
     background-size: cover;
     background-color: orangered;

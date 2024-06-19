@@ -126,17 +126,18 @@ nav ul li a:hover {
 .product-list {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    padding: 60px;
+    gap: 60px;
     flex-wrap: wrap;
 }
 
 .product-item {
     background-color: #fff;
-    padding: 30px;
+    padding: 0px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     flex: 1 1 calc(25% - 40px);
-    max-width: 250px;
+    max-width: 300px;
     margin-bottom: 40px;
     transition: transform 0.3s ease;
 }
@@ -280,4 +281,18 @@ footer {
     .dropdown.show .dropdown-content {
         display: block; /* Keep dropdown content visible when .show is applied */
     }
+
+    /* Adjust product list layout for mobile */
+    .product-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item {
+        max-width: 70%;
+        flex: 1 1 100%;
+        margin-bottom: 20px;
+    }
 }
+
+
