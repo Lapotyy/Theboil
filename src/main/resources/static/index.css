@@ -35,7 +35,7 @@ header {
     background: url('images/hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 header .container {
@@ -119,12 +119,13 @@ footer {
 .social-links {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .social-link img {
     width: 45px;
     height: auto;
+
 }
 
 .order-button {
@@ -181,6 +182,7 @@ footer {
 @media only screen and (max-width: 768px) {
     .nav-links {
         display: none; /* Hide original navigation links */
+
     }
 
     .dropbtn {
@@ -208,4 +210,63 @@ footer {
     .dropdown.show .dropdown-content {
         display: block; /* Keep dropdown content visible when .show is applied */
     }
+
+    .order-button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        margin-left: -20px;
+        margin-top: 250px; /* Adjust the value as needed */
+
+    }
+
+    .order-button:hover {
+        background-color: orangered;
+    }
+
+
+
+    /* Social Links and Order Button */
+    .social-links {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: -10px;
+        margin-top: 250px; /* Adjust the value as needed */
+    }
+
+    .social-link img {
+        width: 45px;
+        height: auto;
+    }
+
+
+    nav {
+        order: 2; /* Default order */
+        margin-left: -10px;
+        margin-top: 250px; /* Adjust the value as needed */
+    }
+
+    /* Header Styles */
+    header {
+
+        background-color: black;
+        color: white;
+        padding: 50px 0;
+        margin-top: -80px; /* Adjust the value as needed */
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+
+
+
 }

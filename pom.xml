@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>distansakademin.se</groupId>
 	<artifactId>Theboil</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1</version>
 	<name>Theboil</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -41,14 +41,6 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.33</version>
-		</dependency>
-
 
 
 		<dependency>

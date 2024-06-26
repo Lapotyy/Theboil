@@ -36,7 +36,7 @@ header {
     background: url('images/hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 header .container {
@@ -49,7 +49,7 @@ header .container {
     display: flex;
     align-items: center;
     justify-content: center; /* Center horizontally */
-    gap: 10px;
+    gap: 5px;
 }
 
 .social-link img {
@@ -88,29 +88,9 @@ nav ul li a:hover {
     color: orangered;
 }
 
-
-/* Hero Section Styles */
-.hero {
-    background: url('images/herooooo.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 200px 0;
-}
-
-.hero h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
 /* Products Section Styles */
 .products {
-    background: url('images/herooooo.jpg') no-repeat center center;
+    background: url('images/heroooo.jpg') no-repeat center center;
     background-size: cover;
     padding: 80px 0;
     color: white;
@@ -129,11 +109,13 @@ nav ul li a:hover {
     padding: 60px;
     gap: 60px;
     flex-wrap: wrap;
+
+
 }
 
 .product-item {
     background-color: #fff;
-    padding: 0px;
+    padding: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     flex: 1 1 calc(25% - 40px);
@@ -180,17 +162,18 @@ nav ul li a:hover {
 
 /* Footer Styles */
 footer {
+    background-size: cover;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
+/* Social Links and Order Button */
 .social-links {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center horizontally */
-    gap: 10px;
+    gap: 5px;
 }
 
 .social-link img {
@@ -293,6 +276,73 @@ footer {
         flex: 1 1 100%;
         margin-bottom: 20px;
     }
+
+    .order-button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        margin-left: -20px;
+        margin-top: 250px; /* Adjust the value as needed */
+
+    }
+
+    .order-button:hover {
+        background-color: orangered;
+    }
+
+    /* Social Links and Order Button */
+    .social-links {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-left: -10px;
+        margin-top: 250px; /* Adjust the value as needed */
+
+    }
+
+    .social-link img {
+        width: 45px;
+        height: auto;
+
+    }
+
+
+    nav {
+        order: 2; /* Default order */
+        margin-left: -10px;
+        margin-top: 250px; /* Adjust the value as needed */
+    }
+
+    /* Header Styles */
+    header {
+        background: url('images/hero.jpg') no-repeat center center;
+        background-color: black;
+        color: white;
+        padding: 50px 0;
+        margin-top: -80px; /* Adjust the value as needed */
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .product-list {
+        display: flex;
+        justify-content: center;
+        padding: 60px;
+        gap: 0;
+        flex-wrap: wrap;
+        margin: -100px; /* Increase margin */
+
+
+    }
+
+
+
 }
 
 
