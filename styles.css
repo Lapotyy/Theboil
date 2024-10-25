@@ -26,7 +26,7 @@ ul {
 
 /* Header Styles */
 header {
-    background: url('images/hero.jpg') no-repeat center center;
+    background: url('hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
     padding: 50px 0;
@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 /* Hero Section Styles */
 .hero {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -83,7 +83,7 @@ nav ul li a:hover {
 
 /* About Section Styles */
 .about {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
     background-color: #fff;
     padding: 80px 0;
@@ -102,7 +102,7 @@ nav ul li a:hover {
 
 /* Products Section Styles */
 .products {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
     padding: 80px 0;
     color: white;
@@ -219,7 +219,7 @@ nav ul li a:hover {
 
 /* Footer Styles */
 footer {
-    background: url('images/herooo.jpg') no-repeat center center;
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
     background-color: #333;
     color: white;

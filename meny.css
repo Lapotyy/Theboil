@@ -33,7 +33,7 @@ ul {
 
 /* Header Styles */
 header {
-    background: url('images/hero.jpg') no-repeat center center;
+    background: url('hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
     padding: 80px 0;
@@ -90,7 +90,7 @@ nav ul li a:hover {
 
 /* Products Section Styles */
 .products {
-    background: url('images/heroooo.jpg') no-repeat center center;
+    background: url('heroooo.jpg') no-repeat center center;
     background-size: cover;
     padding: 80px 0;
     color: white;
@@ -317,7 +317,7 @@ footer {
 
     /* Header Styles */
     header {
-        background: url('images/hero.jpg') no-repeat center center;
+        background: url('hero.jpg') no-repeat center center;
         background-color: black;
         color: white;
         padding: 50px 0;

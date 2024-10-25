@@ -1,3 +1,4 @@
+/* kontakta-oss.css */
 /* Reset and General Styles */
 *,
 *::before,
@@ -32,7 +33,7 @@ ul {
 
 /* Header Styles */
 header {
-    background: url('images/hero.jpg') no-repeat center center;
+    background: url('hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
     padding: 80px 0;
@@ -64,55 +65,65 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: orangered;
+    color: #e91e63;
 }
 
-/* Hero Section Styles */
-.hero {
-    background: url('images/herooo.jpg') no-repeat center center;
+
+
+.contact {
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
-    color: white;
     text-align: center;
-    padding: 220px 0;
+    padding: 150px 0;
+    background-color: #f9f9f9;
 }
 
-.hero h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.hero p {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-
-/* Findu us near you / About Section Styles */
-.about {
-    background-size: cover;
-    background-color: orangered;
-    padding: 80px 0;
-    color: white;
-    text-align: center;
-}
-
-.about h2 {
+.contact h2 {
     font-size: 36px;
     margin-bottom: 40px;
+    color: white;
 }
 
-.about p {
+.contact p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact a {
     font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
 }
 
+/* Button Styles for Contact Links */
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: orangered;
+}
+
+.contact-button i {
+    margin-right: 10px;
+}
 
 /* Footer Styles */
 footer {
+    background-size: cover;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 20px 0;
-
+    padding: 25px 0;
 }
 
 /* Social Links and Order Button */
@@ -125,7 +136,6 @@ footer {
 .social-link img {
     width: 45px;
     height: auto;
-
 }
 
 .order-button {
@@ -140,6 +150,7 @@ footer {
 .order-button:hover {
     background-color: orangered;
 }
+
 
 /* Dropdown Button */
 .dropbtn {
@@ -182,7 +193,6 @@ footer {
 @media only screen and (max-width: 768px) {
     .nav-links {
         display: none; /* Hide original navigation links */
-
     }
 
     .dropbtn {
@@ -226,8 +236,6 @@ footer {
         background-color: orangered;
     }
 
-
-
     /* Social Links and Order Button */
     .social-links {
         display: flex;
@@ -251,7 +259,7 @@ footer {
 
     /* Header Styles */
     header {
-
+        background: url('hero.jpg') no-repeat center center;
         background-color: black;
         color: white;
         padding: 50px 0;
@@ -263,10 +271,5 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
-
-
-
-
-
 
 }

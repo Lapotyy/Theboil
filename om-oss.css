@@ -1,4 +1,4 @@
-/* kontakta-oss.css */
+/* om-oss.css */
 /* Reset and General Styles */
 *,
 *::before,
@@ -33,7 +33,7 @@ ul {
 
 /* Header Styles */
 header {
-    background: url('images/hero.jpg') no-repeat center center;
+    background: url('hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
     padding: 80px 0;
@@ -65,65 +65,36 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #e91e63;
+    color: orangered;
 }
 
 
-
-.contact {
-    background: url('images/herooo.jpg') no-repeat center center;
+/* About Section Styles */
+.about {
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
+    background-color: #fff;
+    padding: 160px 0;
+    color: white;
     text-align: center;
-    padding: 150px 0;
-    background-color: #f9f9f9;
 }
 
-.contact h2 {
+.about h2 {
     font-size: 36px;
     margin-bottom: 40px;
-    color: white;
 }
 
-.contact p {
-    font-size: 24px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.contact a {
+.about p {
     font-size: 18px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-/* Button Styles for Contact Links */
-.contact-button {
-    display: inline-flex;
-    align-items: center;
-    background-color: red;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 10px 5px;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
-}
-
-.contact-button:hover {
-    background-color: orangered;
-}
-
-.contact-button i {
-    margin-right: 10px;
 }
 
 /* Footer Styles */
 footer {
-    background-size: cover;
     background-color: black;
     color: white;
     text-align: center;
-    padding: 25px 0;
+    padding: 40px 0;
+
 }
 
 /* Social Links and Order Button */
@@ -150,7 +121,6 @@ footer {
 .order-button:hover {
     background-color: orangered;
 }
-
 
 /* Dropdown Button */
 .dropbtn {
@@ -220,7 +190,6 @@ footer {
     .dropdown.show .dropdown-content {
         display: block; /* Keep dropdown content visible when .show is applied */
     }
-
     .order-button {
         background-color: red;
         color: white;
@@ -259,7 +228,7 @@ footer {
 
     /* Header Styles */
     header {
-        background: url('images/hero.jpg') no-repeat center center;
+        background: url('hero.jpg') no-repeat center center;
         background-color: black;
         color: white;
         padding: 50px 0;
@@ -271,5 +240,6 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+
 
 }

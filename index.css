@@ -1,4 +1,3 @@
-/* om-oss.css */
 /* Reset and General Styles */
 *,
 *::before,
@@ -33,7 +32,7 @@ ul {
 
 /* Header Styles */
 header {
-    background: url('images/hero.jpg') no-repeat center center;
+    background: url('hero.jpg') no-repeat center center;
     background-color: black;
     color: white;
     padding: 80px 0;
@@ -68,13 +67,31 @@ nav ul li a:hover {
     color: orangered;
 }
 
-
-/* About Section Styles */
-.about {
-    background: url('images/herooo.jpg') no-repeat center center;
+/* Hero Section Styles */
+.hero {
+    background: url('herooo.jpg') no-repeat center center;
     background-size: cover;
-    background-color: #fff;
-    padding: 160px 0;
+    color: white;
+    text-align: center;
+    padding: 220px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+/* Findu us near you / About Section Styles */
+.about {
+    background-size: cover;
+    background-color: orangered;
+    padding: 80px 0;
     color: white;
     text-align: center;
 }
@@ -88,12 +105,13 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
+
 /* Footer Styles */
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
 
 }
 
@@ -107,6 +125,7 @@ footer {
 .social-link img {
     width: 45px;
     height: auto;
+
 }
 
 .order-button {
@@ -163,6 +182,7 @@ footer {
 @media only screen and (max-width: 768px) {
     .nav-links {
         display: none; /* Hide original navigation links */
+
     }
 
     .dropbtn {
@@ -190,6 +210,7 @@ footer {
     .dropdown.show .dropdown-content {
         display: block; /* Keep dropdown content visible when .show is applied */
     }
+
     .order-button {
         background-color: red;
         color: white;
@@ -204,6 +225,8 @@ footer {
     .order-button:hover {
         background-color: orangered;
     }
+
+
 
     /* Social Links and Order Button */
     .social-links {
@@ -228,7 +251,7 @@ footer {
 
     /* Header Styles */
     header {
-        background: url('images/hero.jpg') no-repeat center center;
+
         background-color: black;
         color: white;
         padding: 50px 0;
@@ -240,6 +263,10 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+
+
+
+
 
 
 }
